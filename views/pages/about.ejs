@@ -1,0 +1,26 @@
+<!-- views---pages---about.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<% include ../partials/head %>
+
+<body>
+  <% include ../partials/nav %>
+
+  <!-- content for about page -->
+  <div class="container" id="about">
+    <div class="row">
+      <h2 class="text-center"><%= about %></h2>
+      <div class="col-xs-12">
+        <p>
+          <%= content %>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- end of content -->
+
+  <% include ../partials/footer %> <% include ../partials/scripts %>
+</body>
+
+</html>
